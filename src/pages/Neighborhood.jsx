@@ -3,13 +3,13 @@ import { useLocation, useNavigate } from "react-router";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import CardNeighborhoodInfo from "@/components/AppComponents/CardNeighborhoodInfo";
 import VisitCodeCard from "@/components/AppComponents/VisitCodeCard";
-import ViewModeCard from "@/components/AppComponents/viewModeCard";
 import { ArrowLeft } from "@phosphor-icons/react";
 import { Button } from "@/components/ui/button";
 import axios from "axios";
 import { showToast } from "@/components/AppComponents/ShowToast";
 import CardSkeleton from "@/components/AppComponents/CardSkeleton";
 import Navbar from "@/components/AppComponents/Navbar";
+import ViewModeCard from "@/components/AppComponents/ViewModeCard";
 
 function Neighborhood() {
   const [neighborhood, setNeighborhood] = useState({});
